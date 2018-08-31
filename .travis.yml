@@ -1,7 +1,7 @@
 language: r
 
 install:
-    - Rscript install.R
+    - Rscript install_packages.R
 
 script:
 	- Rscript testthat.R
