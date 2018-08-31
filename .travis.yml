@@ -4,4 +4,4 @@ install:
     - Rscript install_packages.R
 
 script:
-	- Rscript testthat.R
+    - Rscript testthat.R
