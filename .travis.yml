@@ -1,0 +1,7 @@
+language: R
+
+install:
+    - Rscript -e 'install.packages(c("devtools", "testthat"))'
+    - Rscript -e 'devtools::install_github("klmr/modules")'
+
+script: make test
