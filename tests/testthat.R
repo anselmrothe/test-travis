@@ -5,5 +5,5 @@ test_that('test1', {
 })
 
 test_that('test2', {
-  expect_equal(sum(1, 2), 66)
+  expect_equal(sum(1, 3), 4)
 })
